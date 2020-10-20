@@ -10,12 +10,12 @@ namespace CA20201020
     {
         static void Main(string[] args)
         {
-            Random r = new Random();
-            int[] t = new int[10];
+            Random rnd = new Random();
+            int[] tomb = new int[10];
 
-            for (int i = 0; i < t.Length; i++)
+            for (int i = 0; i < tomb.Length; i++)
             {
-                Console.WriteLine(r.Next(10, 100));
+                Console.WriteLine(rnd.Next(10, 100));
             }
             Console.ReadKey();
         }
